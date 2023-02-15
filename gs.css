@@ -1,4 +1,36 @@
-p{font-family: 'Times New Roman';font-size: 22px;color: black;}
+.speech{font-family: 'Times New Roman';font-size: 22px;color: black;}
 #direction{
-    font-family: 'Times New Roman';font-size: 22px;color: black;
+    font-family: 'Times New Roman';font-size: 22px;color: black;background-color: yellow;
+}
+#direction:hover{
+    background-color: aqua ;color: red;
+}
+.MRSX{
+    color: blue;
+}
+.MISSY{
+    color: pink;
+}
+table{
+    border: 3px;
+    color: purple;
+    text-align: center;
+    padding-right: 3px;
+    border-style: solid;
+    margin-right: auto;
+    margin-left: auto;
+}
+tr:nth-child(even){
+    background-color: orange;
+}
+.MISSY:hover{
+    color: brown;
+    background-color: aqua;
+    text-shadow: 1px 2px 2px sandybrown;
+    border-style: solid;
+}
+.MRSX:hover{
+    color: blueviolet;
+    text-shadow: 1px 2px 2px purple;
+    border-style: solid;
 }
