@@ -11,7 +11,8 @@
 .MISSY{
     color: pink;
 }
-table{
+table,tr,td,th{
+    border-collapse: collapse;
     border: 3px;
     color: purple;
     text-align: center;
@@ -33,4 +34,34 @@ tr:nth-child(even){
     color: blueviolet;
     text-shadow: 1px 2px 2px purple;
     border-style: solid;
+}
+ul.navbar-horizontal {
+    display:block;
+    padding: 100%;
+    color:chartreuse
+}
+
+ul.navbar-horizontal {
+    /* remove these */
+    list-style-type:none;
+    margin: 12px;
+    padding: 12px;}
+
+ul.navbar-horizontal li {
+    float:left;
+    background-color:bisque;
+}
+
+ul.navbar-horizontal a {
+    display:block;
+    padding: 10px;
+}
+
+/* on hover change the link color*/
+ul.navbar-horizontal a:hover {
+    color:coral;
+}
+
+.image {
+    width: 32%;
 }
